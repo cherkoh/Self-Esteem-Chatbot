@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MindEase: An AI chatbot helping students manage self-doubt and build confidence through gentle reflection.">
+    <meta name="theme-color" content="#6B9EBE">
+    <title>MindEase - Your Supportive AI Companion</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🧠</span>
+                <span class="logo-text">MindEase</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Try Demo</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>A Supportive Companion for Your Mind</h1>
+            <p>MindEase helps you manage self-doubt, quiet negative self-talk, and build genuine confidence through gentle, compassionate conversations.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('#demo'); return false;">
+                    Try the Demo
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('#features'); return false;">
+                    Learn More
+                </button>
+            </div>
+            <p class="hero-subtitle">Safe • Supportive • Always Here</p>
+        </div>
+        <div class="hero-visual">
+            <img 
+                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop" 
+                alt="Student looking peaceful and confident" 
+                class="hero-image"
+            >
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>How MindEase Helps</h2>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <article class="feature-card">
+                    <div class="feature-icon">💭</div>
+                    <h3>Reflection Prompts</h3>
+                    <p>Thoughtful questions designed to help you explore your feelings and challenge negative thoughts with compassion.</p>
+                </article>
+
+                <!-- Feature 2 -->
+                <article class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Strength Spotting</h3>
+                    <p>Discover your hidden strengths through guided conversation. We help you recognize what you're already good at.</p>
+                </article>
+
+                <!-- Feature 3 -->
+                <article class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Calm & Judgment-Free</h3>
+                    <p>No algorithms judging you. No clinical language. Just a supportive presence ready to listen anytime.</p>
+                </article>
+
+                <!-- Feature 4 -->
+                <article class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Build Confidence</h3>
+                    <p>Small, meaningful conversations that help you build genuine self-esteem and positive thinking habits.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2>Experience MindEase</h2>
+            <p class="demo-subtitle">Chat with our AI companion below</p>
+            
+            <!-- Botpress Chatbot Embed -->
+            <iframe 
+                class="chatbot-wrapper"
+                src="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2026/01/13/06/20260113063211-L5JDKA7F.json"
+                title="MindEase Chatbot"
+                allow="microphone; camera; geolocation"
+                style="width: 100%; max-width: 600px; height: 600px; margin: 0 auto var(--spacing-xl); display: block; border: none; border-radius: 16px; box-shadow: 0 8px 24px rgba(107, 158, 190, 0.15);">
+            </iframe>
+
+            <!-- CTA After Demo -->
+            <div class="demo-cta">
+                <p>Ready to experience the full version?</p>
+                <button class="btn btn-primary" onclick="handleSignup()">
+                    Get Started with MindEase
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About MindEase</h2>
+            <div class="about-content">
+                <article class="about-card">
+                    <h3>For Students, By Understanding</h3>
+                    <p>We know student life is challenging. Exam stress, self-doubt, comparison—it's real. MindEase is designed specifically for students aged 16–24, meeting you where you are with empathy and practical support.</p>
+                </article>
+
+                <article class="about-card">
+                    <h3>A Complement, Not a Replacement</h3>
+                    <p>MindEase is a supportive tool designed to encourage reflection and positive thinking habits. It's not a substitute for professional mental health care. If you're struggling, please reach out to a counselor or therapist.</p>
+                </article>
+
+                <article class="about-card">
+                    <h3>Your Privacy Matters</h3>
+                    <p>Your conversations are private and stored securely. We never judge, analyze, or share your data. Your trust is everything.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MindEase. Created with care for student wellbeing. | <a href="#">Privacy Policy</a></p>
+            <p class="footer-note">If you're in crisis, please contact emergency services or a mental health professional.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
